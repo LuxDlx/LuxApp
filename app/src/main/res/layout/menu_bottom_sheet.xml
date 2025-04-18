@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/activeGames"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Active Games"
+        android:padding="12dp"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/mostCommonMaps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Common Maps"
+        android:padding="12dp"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/mostGames"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Most Games"
+        android:padding="12dp"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/versus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2 Player Versus"
+        android:padding="12dp"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/hosts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Frequent Hosts"
+        android:padding="12dp"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/qLuxTags"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QWERTZ: Lux Tags"
+        android:padding="12dp"
+        android:textSize="16sp"/>
+
+
+</LinearLayout>

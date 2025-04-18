@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@android:drawable/ic_menu_view"
+        android:title="Home"/>
+    <item
+        android:id="@+id/rankings"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="Rankings"/>
+    <item
+        android:id="@+id/forum"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="Forum"/>
+    <item
+        android:id="@+id/menu"
+        android:icon="@drawable/burger_icon"
+    android:title="Menu"/>
+</menu>
